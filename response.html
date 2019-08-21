@@ -1,0 +1,182 @@
+<!-- Student Name:Deepa Natarajan
+     filename:final 
+     Course number and section:INFO_1311_WA_18SP
+     Instructor Last Name:Ms.Kuisma
+     Date Created:05/19/2019
+--><!DOCTYPE html>
+<html lang="en">
+<head>
+<title>The Downtown Diner</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="thedowntowndiners.css" media="screen">
+<link rel="stylesheet" href="thedowntowndinersprint.css" media="print">
+
+</head>
+<style>
+* {box-sizing: border-box;}
+#wrapper
+{
+	width:auto;
+	margin-left:40px;
+	margin-right:40px;
+	
+	box-shadow:10px 5px 5px #33FF66;
+	
+}
+#diner
+{
+	display:flex;
+	flex-direction:column;
+}
+body
+{
+	background-color:#333300;
+	color:#221811;
+	font-family:Verdana,Arial,Sans-serif;
+	margin:0;
+}
+header
+{
+	background-image:url(images/logo1.png);
+	/*image:https://pixabay.com/vectors/restaurant-hotel-logo-pictogram-36030/*/
+	background-repeat:no-repeat;	
+	background-color:#800000;
+	color:#ffffff;
+	height:100px;
+	text-shadow:6px 6px 6px black;
+	font-size:2em;
+	text-align:center;
+	padding:0px 15px;
+	border-bottom:2px solid #000000;
+	
+	
+}
+h1
+{
+	height:200%;
+	
+	
+}
+nav
+{
+	
+	text-align:center;
+	font-weight:bold;
+	background-color:#000000;
+	color:#ffffff;
+	padding:1px;
+	
+	
+	
+}
+
+nav ul {list-style-type:none;}
+nav li{	display:inline-block;}
+nav a {
+	border: 3px inset #CCCCCC;
+	width: 8em;
+    display: inline-block;
+	color: #FFFFFF;
+	background-color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	background-image:radial-gradient(#080000,#FF4040);
+		
+}
+nav a:link { color : #FFFFFF;border: 5px outset #FFFFFF; }
+nav a:visited { color : #00FFFF;border: 5px outset #00FFFF; }
+nav a:hover { color : #FFFF00;border: 5px outset #FFFF00; }
+main
+{
+	background-color:#ffffff;
+	padding:10px;
+	
+}
+footer
+{
+	background-color:#000000;
+	color:#ffffff;
+	text-align:center;
+	padding-top:5px;	
+		
+}
+footer p
+{
+	font-size:0.80em;
+	font-style:italic;
+	padding-top:0px;
+	
+}
+footer ul 
+ {
+	 list-style-type:none;
+	 padding-bottom:0px;
+	 
+}
+footer a
+{	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+footer li 
+{
+	display:inline;
+}
+
+footer a:link { color : #FFFFFF; }
+footer a:visited { color : #00FFFF; }
+footer a:hover { color : #FFFF00;}
+@media only screen and (max-width: 768px) {
+	header{text-align:right;padding-top:5px;}
+    h1{ font-size: 93%; }
+    p { font-size: 90%; }
+    #pasta,#dumpling,#burrito,#stew,#clear { display: none;}
+    nav, nav ul, nav li { padding: 0px; }
+    nav li { display: block; padding-left:100px; }
+    nav a { display: block; padding: 0.5em 0; }
+	footer li,footer ul, footer a {display:none;} 
+}
+
+
+
+</style>
+<body>
+<div id="wrapper">
+<header>
+<h1>The Downtown Diner</h1>
+</header>
+<div class="diner">
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="history.html">History</a></li>
+<li><a href="specials.html">Specials</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+
+<main>
+<h1>Your form has been successfully submitted!!</h1>
+<p>Thank you for completing the form.We appreciate your time and one of us will be contacting you in 48 hours.</p>
+<p>Your business and satisfaction is important to us.</p>
+</main>
+<footer>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="history.html">History</a></li>
+<li><a href="specials.html">Specials</a></li>
+<li><a href="contacts.html">Contacts</a></li>
+</ul>
+<p>Copyright &copy; 2019.The Downtown Diner<br><a href="mailto:dnatarajan@mail.mccneb.edu">Email:The Downtown Diner's</a></p>
+</footer>
+</div>
+</div>
+</body>
+</html>

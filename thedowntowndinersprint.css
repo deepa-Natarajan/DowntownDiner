@@ -1,0 +1,73 @@
+/*
+     Student Name:Deepa Natarajan
+     filename:final 
+     Course number and section:INFO_1311_WA_18SP
+     Instructor Last Name:Ms.Kuisma
+     Date Created:05/19/2019
+
+*/
+* {box-sizing: border-box;}
+#wrapper
+{
+	
+	margin:0;
+}
+#diner
+{
+	display:flex;
+	flex-direction:row;
+}
+body
+{
+	background-color:#FFFFFF;
+	color:#221811;
+	font-family:Verdana,Arial,Sans-serif;
+}
+header
+{
+	
+	background-repeat:no-repeat;	
+	background-color:#ffffff;
+	color:#000000;
+	font-family:Verdana,Arial,Sans-serif;
+	padding:0px 15px;
+	border-bottom:2px solid #000000;
+
+	
+}
+h1
+{
+	margin-top:0;
+	font-size:24pt;
+	text-align:left;
+}
+nav{display:none;}
+
+
+main
+{
+	margin:0 ;
+	font-size:12pt;
+	background-color:#ffffff;
+	color:#000000;
+	padding: 1px 10px 20px 10px;
+}
+
+footer
+{
+	background-color:#ffffff;
+	color:#000000;
+	text-align:left;
+		
+}
+footer p
+{
+	font-size:0.80em;
+	font-style:italic;
+	padding-top:0px;
+	
+}
+footer ul{display:none;}
+
+footer li {display:none;}
+footer a:after{content:"("attr(href)")";}

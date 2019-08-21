@@ -1,0 +1,303 @@
+/*
+     Student Name:Deepa Natarajan
+     filename:final 
+     Course number and section:INFO_1311_WA_18SP
+     Instructor Last Name:Ms.Kuisma
+     Date Created:05/19/2019
+
+*/
+* {box-sizing: border-box;}
+#wrapper
+{
+	width:auto;
+	margin-left:40px;
+	margin-right:40px;
+		box-shadow:10px 5px 5px #CC3300;
+	
+}
+#diner
+{
+	display:flex;
+	flex-direction:column;
+}
+body
+{
+	background-color:#DEB887;
+	color:#221811;
+	font-family:Verdana,Arial,Sans-serif;
+	margin:0;
+	background-image:url(images/background.gif);
+}
+header
+{
+	background-image:url(images/logo1.png);
+	/*image:https://pixabay.com/vectors/restaurant-hotel-logo-pictogram-36030/*/
+	background-repeat:no-repeat;	
+	background-color:#800000;
+	color:#ffffff;
+	height:100px;
+	font-size:2em;
+	text-align:center;
+	padding:0px 15px;
+	border-bottom:2px solid #000000;
+	
+	
+}
+h1
+{
+	height:200%;
+	text-shadow:6px 6px 6px #FFD700;
+
+}
+h2
+{
+	font-size:1.5em;
+	font-weight:bold;
+}
+h3
+{
+	font-weight:bold;
+	font-size:1.3em;
+}
+nav
+{
+	
+	text-align:center;
+	font-weight:bold;
+	background-color:#000000;
+	color:#ffffff;
+	padding:1px;
+	
+	
+	
+}
+
+nav ul {list-style-type:none;}
+nav li{	display:inline-block;}
+nav a {
+	border: 3px inset #CCCCCC;
+	width: 8em;
+    display: inline-block;
+	color: #FFFFFF;
+	background-color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	background-image:radial-gradient(#080000,#FF4040);
+		
+}
+nav a:link { color : #FFFFFF;border: 5px outset #FFFFFF; }
+nav a:visited { color : #00FFFF;border: 5px outset #00FFFF; }
+nav a:hover { color : #FFFF00;border: 5px outset #FFFF00; }
+main
+{
+	background-color:#fef6c2;
+	padding:10px;
+	
+}
+
+#pasta
+{
+	background-image:url(images/pasta.jpg);/*Image Credit: https://pixabay.com/users/klausneu-834729/*/
+	height:225px;
+	width:25%;
+	border:5px solid #000000;
+	float:left;
+	
+		
+}
+
+#dumpling
+{
+	background-image:url(images/dumpling.jpeg);/*Image credit :https://unsplash.com/@abhishek_sanwa*/
+	height:225px;
+	width:25%;
+	border:5px solid #000000;
+	float:left;
+	
+	}
+#burrito
+{
+	background-image:url(images/burrito.jpg);/*image credit: https://pixabay.com/users/samuelfernandezrivera-5770955/*/
+	height:225px;
+	width:25%;
+	border:5px solid #000000;
+	float:left;
+	
+	
+}
+#stew
+{
+	background-image:url(images/stew.jpg);/*Image credit :https://unsplash.com/@steven__chan*/
+	height:225px;
+	width:25%;
+	border:5px solid #000000;
+	float:left;
+		
+}
+#clear{width:100%;
+	height:225px;
+	overflow:auto;
+	}
+footer
+{
+	background-color:#000000;
+	color:#ffffff;
+	text-align:center;
+	padding-top:10px;	
+		
+}
+footer p
+{
+	font-size:0.80em;
+	font-style:italic;
+	padding-top:0px;
+	
+}
+footer ul 
+ {
+	 list-style-type:none;
+	 padding-bottom:0px;
+	 
+}
+footer a
+{	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+footer li 
+{
+	display:inline;
+}
+
+footer a:link { color : #FFFFFF; }
+footer a:visited { color : #00FFFF; }
+footer a:hover { color : #FFFF00;}
+
+
+fieldset
+ {
+	
+    padding: 10px;
+    margin-bottom: 10px;
+}
+legend
+{ 	font-family:Verdana,Arial,Sans-serif;
+    font-weight: bold; 
+}
+label
+{ 
+font-family:Verdana,Arial,Sans-serif;
+float:left;
+padding-right:10px;
+width:100px;
+clear:left;
+margin-top:10px;
+ }
+ 
+form
+{
+	background-color:#eaeaea;
+	font-family:Arial, sans-serif;
+	padding:15px;
+}
+#format
+{
+	text-align:center;
+	font-family:papyrus,fantasy,impact;
+	font-size:1.3em;
+	font-weight:bold;
+	
+}
+#historyformat
+{
+	text-align:center;
+	font-family:papyrus,fantasy,impact;
+	font-size:1em;
+	
+}
+#history
+{
+	background-image:url(images/history.jpeg);/*Image credit :https://unsplash.com/@katlyngiberson-*/
+	height:300px;
+	width:250px;
+	border:5px solid #000000;
+	border-radius:15px;
+	float:left;
+	margin-right:20px;
+	
+}
+#specials
+{	
+	background-image:url(images/special.jpeg);
+	height:250px;
+	width:330px;
+	border:5px solid #000000;
+	border-radius:15px;
+	float:right;
+	margin-right:150px;
+	margin-top:70px;
+	/*--https://unsplash.com/photos/ndAHi2Wxcok/Natasha Kapur*/
+}
+
+.space
+{
+	padding-bottom:15px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;}
+#video
+{
+	float:right;
+}
+@media only screen and (max-width: 768px) {
+	header{text-align:right;padding-top:5px;}
+    h1{ font-size: 93%; }
+    p { font-size: 90%; }
+    #pasta,#dumpling,#burrito,#stew,#clear,#video,#history,#specials{ display: none;}
+    nav, nav ul, nav li { padding: 0px; }
+    nav li { display: block; padding-left:100px; }
+    nav a { display: block; padding: 0.5em 0; }
+	footer li,footer ul, footer a {display:none;} 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
